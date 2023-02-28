@@ -1,0 +1,135 @@
+/*FUCHIMURAYUKA*/
+
+@charset "UTF-8";
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;	
+}
+body{
+	font-size:15px;
+	color: #333;
+	line-height:1.5;
+}
+
+.size{
+	display:inline-block;	
+}
+
+.bottom{
+	font-size: 1rem;
+	text-align: right;
+	padding-right:100px;
+}
+.bottom a{
+	padding:0.5rem 1rem;
+	background-color: #92d3ca;
+	transition:all 0.8s;
+	text-decoration: none;
+	color:white;
+}
+.bottom a:hover{
+	transform:scale(1.2);
+	border-radius: 20px;
+}
+
+.admin{
+	text-align:center;
+	padding-top:50px;
+	}
+.adminLoginResult{
+	text-align:center;
+	padding-top:100px;
+	}
+.admin-headline{
+	text-align:center;
+}
+
+.box{
+   display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 60%;
+    margin: 30px 0;
+    padding-top: 30px;
+}
+
+label,input,textarea,select,button{
+	cursor:pointer;
+}
+
+ button{
+	border:0;
+}
+
+/*button*/
+.button{
+	display:inline-block;
+	color:#fff;
+	font-weight:bold;
+	background-color:black;
+	text-align:center;
+	padding: 15px 60px;
+	text-decoration:none;
+	border-radius:5px;
+	box-shadow: 5px 5px 0 #bbb;
+	transition: box-shadow .25s;
+}
+.button:hover{
+	box-shadow:0 0 0 #bbb;
+}
+.button.button-submission{
+	background-color:#92d3ca;
+}
+
+/*form*/
+.select{
+	border-radius:5px;
+	padding:10px;
+	border:1px solid #ccc;
+	min-width:500px ;	
+}
+.section-secondary{
+	padding-top:100px;
+	padding-bottom:100px;
+	text-align:center;
+}
+.section-headline{
+	text-align:center;
+	font-size: 40px;
+	font-weight:bold;
+	margin: 0 0 40px;
+}
+.input{
+	border-radius:5px;
+	padding:10px;
+	border:1px solid #ccc;
+	min-width:500px;
+	
+}
+.radio{
+	margin: 0 10px;
+}
+.textarea{
+	border-radius:5px;
+	padding:10px;
+	border:1px solid #ccc;
+	min-width:500px;
+	min-height:100px;
+}
+.form-table{
+	margin:0 auto;
+}
+
+.form-table th{
+	padding:10px;
+	text-align: left;
+}
+.form-table td {
+	padding:10px;
+}
+.form-button{
+	margin-top:20px;
+	text-align: center;
+}

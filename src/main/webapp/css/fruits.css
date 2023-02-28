@@ -1,0 +1,89 @@
+/*YAMAMOTO*/
+
+@charset "UTF-8";
+
+body{
+	background-color:#F2F2F2;	
+}
+
+.berry_h1{
+	background-color: rgb(255, 0, 128);
+	color:white;
+    /* ↑商品タイトルをピンクの白抜きで表示   */
+    padding: 0.5em 0.5em;
+}
+
+.melon_h1{
+	background-color:greenyellow;
+	color:white;
+    /* ↑商品タイトルをミドリの白抜きで表示   */
+    padding: 0.5em 0.5em;
+}
+
+.grapes_h1{
+	background-color:purple;
+	color:white;
+	/* ↑商品タイトルをムラサキの白抜きで表示   */
+	padding: 0.5em 1.0em;
+    padding: 0.5em 0.5em;
+}
+
+.body-container{
+	margin: 2.0em 2.0em;
+}
+
+.card-container{
+    display:flex;
+    padding: 2.5em 0.5em;
+}
+
+.card-text{
+	display: inline-block;
+}
+
+.card-img img{
+	display: inline-block;
+	width:40em;
+	height:30em; 
+}
+
+.width-tableList{
+	margin: 4.0em 4.0em;	
+}
+
+.width-tableListtext{
+	background-color:white;
+	width:75%;
+	height:75%;
+}
+
+
+
+
+
+
+.width-table{
+	width: 100%;
+    table-layout: fixed;
+}
+
+.width-tableListtext{
+	padding-left: 10px;
+}
+
+
+.width10{
+	width: 10%;
+}
+
+.width15{
+	width: 15%;
+}
+
+.width20{
+	width: 20%;
+}
+
+.width50{
+	width: 50%;
+}
