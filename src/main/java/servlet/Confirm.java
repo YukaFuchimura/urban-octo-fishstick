@@ -1,4 +1,5 @@
 //WAKABAYASHI
+//購入確認前のログイン確認
 
 package servlet;
 
@@ -41,13 +42,18 @@ public class Confirm extends HttpServlet {
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
+		
 		request.setCharacterEncoding("UTF-8");
 
+		//			作成中　買い物履歴が出るようにしたい⇒デ－タベ－ス　fuchimura
+		//			String name = request.getParameter("name"));
+		//			int price = Integer.parseInt(request.getParameter("price"));
 		//			int quantity = Integer.parseInt(request.getParameter("quantity"));
-		//			
+		//			int totaiQuantity = Integer.parseInt(request.getParameter("totalQuantity"));
+		//			int total = Integer.parseInt(request.getParameter("total"));
 		//			HttpSession session = request.getSession();
-		//			Confirm confirm = (Confirm) session.getAttribute("confirm");
-		//			
+		//			Confirm confirm　= new Confirm();
+		//			Confirm confirm = (Confirm) session.getAttribute("confirm");			
 		//			CartLogic logic = new CartLogic();
 		//			logic.execute(confirm);
 		//			session.setAttribute("confirm", confirm);

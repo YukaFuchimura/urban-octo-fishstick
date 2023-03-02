@@ -7,7 +7,7 @@ import dao.ContactDAO;
 
 public class DeleteMessageLogic {
 	
-	//Stock情報をStockDAOのdeleteメソッドで処理
+	//ContactBeans情報をStockDAOのdeleteメソッドで処理
 	public void execute(ContactBeans contactBeans) {
 		ContactDAO dao = new ContactDAO();
 		dao.delete(contactBeans);

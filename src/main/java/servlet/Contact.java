@@ -1,4 +1,6 @@
 //FUCHIMURAYUKA
+//doGet  headerお問い合わせボタンより画面遷移しお問い合わせフォームへforward
+//doPost お問い合わせフォームの値を受け取りデ－タベ－スに保存
 
 package servlet;
 
@@ -50,7 +52,7 @@ public class Contact extends HttpServlet {
 
 			//エラーメッセージをリクエストスコープに保存
 			//メッセージをつけてcontact.jspへ戻る
-			request.setAttribute("errorMsg", "名前またはパスワードが違います。");
+			request.setAttribute("error", "正しく入力できているか確認してください");
 			request.getRequestDispatcher("WEB-INF/jsp/contact.jsp").forward(request, response);
 		}
 

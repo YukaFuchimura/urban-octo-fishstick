@@ -1,4 +1,5 @@
 //FUCHIMURAYUKA
+//お問い合わせ内容を保存するlogic
 
 package model;
 

@@ -23,10 +23,7 @@
 			</p>
 		</div>
 	</div>
-	<%-- 
-<div class="bottom">
-<a href="/fruitsStore/" class="btn">TOPへ戻る</a><br>
---%>
+	
 	</div>
 	<jsp:include page="/WEB-INF/jsp/footer.jsp" />
 </body>

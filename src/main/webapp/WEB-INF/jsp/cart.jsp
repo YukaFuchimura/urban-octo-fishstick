@@ -4,8 +4,8 @@
 	pageEncoding="UTF-8" import="model.*,java.util.*"%>
 <%
 Cart cart = (Cart) session.getAttribute("cart");
-String err = (String) request.getAttribute("err");
-String msg = (String) request.getAttribute("msg");
+String err = (String) request.getAttribute("err");String msg = (String) request.getAttribute("msg");
+
 %>
 <!DOCTYPE html>
 <html>
@@ -71,12 +71,14 @@ String msg = (String) request.getAttribute("msg");
 		</div>
 		<br> <br> <br>
 		<div class="float-right" role="alert">
+		    <!-- 買い物履歴を作るように値を渡していきたい　fuchimura -->
 			<form action="/fruitsStore/Confirm">
 				<input type="submit" value="購入確定">
 			</form>
 		</div>
 
-		<!--買い物を続けるボタン機能追加したい-->
+		<!--買い物を続けるボタン機能追加したい fuchimura-->
+		
 
 		<form action="/fruitsStore/MainCart?action=2">
 			<input type="submit" value="カート内を削除">

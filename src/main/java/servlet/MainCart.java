@@ -27,7 +27,7 @@ public class MainCart extends HttpServlet {
 		switch (action) {
 
 		case 1:
-			//削除機能をつけたい　課題
+			//削除機能をつけたい　課題 fuchimura
 			//HttpSession session = request.getSession();
 			//Cart cart = (Cart) session.getAttribute("cart");
 			//if (cart == null) {

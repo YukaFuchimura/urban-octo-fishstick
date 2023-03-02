@@ -1,4 +1,5 @@
 //FUCHIMURA
+//お問い合わせ内容を参照するlogic
 
 package model;
 

@@ -15,10 +15,6 @@
 	<section class="section section-secondary">
 		<h1>ブログのJSPです。</h1>
 	</section>
-
-	<%-- <div class="bottom">
-<a href="/fruitsStore/">TOPへ戻る</a>
-</div>--%>
 	<jsp:include page="/WEB-INF/jsp/footer.jsp" />
 </body>
 </html>

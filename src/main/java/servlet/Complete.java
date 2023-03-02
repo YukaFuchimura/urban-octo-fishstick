@@ -1,4 +1,5 @@
 //WAKABAYASHI
+//買い物購入後、セッションスコープの消去
 
 package servlet;
 

@@ -1,4 +1,5 @@
 //WAKABAYASHI
+//index.jspよりそれぞれのページへ画面遷移
 
 package servlet;
 

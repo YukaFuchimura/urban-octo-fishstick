@@ -62,14 +62,6 @@ String aleart = (String) request.getAttribute("aleart");
 		</form>
 	</section>
 
-	<!-- <form action ="UserLoginServlet" method="post">
-	
-		<p>NAME:</p><br>
-		<input type="text" name="name" /><br>
-		<p>PASSWORD:</p><br>
-		<input type="password" name="pass"/><br><br>
-		<input type="submit" value="LOGIN"><br>
-</form> -->
 	<div class="bottom">
 		<a href="RegisterAccount">新規アカウント登録</a><br> <br> <a
 			href="AdminLogin">管理者ログインページ</a><br> <br> <a

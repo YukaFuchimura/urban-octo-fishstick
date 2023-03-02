@@ -1,4 +1,6 @@
 //FUCHIMURAYUKA
+//doGet 新規アカウントボタンより新規登録フォームへ
+//doPost 新規アカウントフォームより値を受け取り新規登録
 
 package servlet;
 
@@ -66,6 +68,5 @@ public class RegisterAccount extends HttpServlet {
 			RequestDispatcher rd = request.getRequestDispatcher("WEB-INF/jsp/error.jsp");
 			rd.forward(request, response);
 		}
-
 	}
 }

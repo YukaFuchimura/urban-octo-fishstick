@@ -1,4 +1,5 @@
 //WAKABAYASHI
+//管理者登録商品内容を参照するlogic
 
 package model;
 

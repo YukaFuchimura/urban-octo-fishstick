@@ -1,11 +1,13 @@
 //YAMAMOTO
 //WAKABAYASHI
+//フルーツ情報のmodel(ユ－ザ－の選んだフルーツの情報)
 
 package model;
 
 import java.io.Serializable;
 
 public class Fruits implements Serializable {
+	
 	private String name;
 	private int price;
 	private int quantity;

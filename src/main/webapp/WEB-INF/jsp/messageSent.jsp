@@ -16,7 +16,6 @@
 		<h1>メッセージが送信されました。ありがとうございまいた。</h1>
 	</section>
 
-	<%--  <div class="bottom"><a href="/fruitsStore/">TOPへ戻る</a></div>--%>
 	<jsp:include page="/WEB-INF/jsp/footer.jsp" />
 </body>
 </html>

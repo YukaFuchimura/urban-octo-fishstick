@@ -1,4 +1,5 @@
-//FUVHIMURAYUKA
+//FUCHIMURAYUKA
+//管理者メッセージ画面より指定したメッセージのみを消去
 //作成したが、動作未確認
 
 package servlet;

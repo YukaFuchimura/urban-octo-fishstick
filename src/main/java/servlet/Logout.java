@@ -1,4 +1,5 @@
 //WAKANAYASHI
+//ログアウト
 
 package servlet;
 

@@ -19,12 +19,7 @@
 			<h2>ログアウトしました。</h2>
 		</div>
 	</div>
-
-	<%-- 
-<div class="bottom">
-<p><a href="/fruitsStore/">TOPへ</a></p>
---%>
-	</div>
+	
 	<jsp:include page="/WEB-INF/jsp/footer.jsp" />
 </body>
 </html>

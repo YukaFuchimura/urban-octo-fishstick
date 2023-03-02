@@ -1,4 +1,7 @@
 //WAKABAYASHI
+//doGet header.jsp, index.jspより選ばれたページへ画面遷移
+//大分類でページ内容にあったデ－タを引っ張てきて表示する
+//doPost　カ－トに入れられた値を保存
 
 package servlet;
 
@@ -82,6 +85,7 @@ public class Main extends HttpServlet {
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
+		
 		request.setCharacterEncoding("UTF-8");
 		String name = request.getParameter("name");
 		String price = request.getParameter("price");

@@ -2,16 +2,6 @@
 
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
-<%-- <%@ page import="model.User" %>
-    <%@ page import="model.User,model.Mutter,java.util.List" %>
-    <% 
-    User loginUser = (User) session.getAttribute("loginUser");
-    
-    List<Mutter> mutterList = (List<Mutter>) application.getAttribute("mutterList");
-    
-    String errorMsg = (String) request.getAttribute("errorMsg");
-    %> --%>
-
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%
 String deleted = (String) request.getAttribute("deleted");
@@ -60,8 +50,7 @@ String fixed = (String) request.getAttribute("fixed");
 		<p>
 		<li>【在庫削除】<%
 		if (deleted != null) {
-		%><p><%=deleted%></p>
-			<%
+		%><p><%=deleted%></p> <%
 			}
 			%>
 			<form action="/fruitsStore/DeleteStock" method="post">
@@ -73,8 +62,7 @@ String fixed = (String) request.getAttribute("fixed");
 		<p>
 		<li>【在庫修正】<%
 		if (fixed != null) {
-		%><p><%=fixed%></p>
-			<%
+		%><p><%=fixed%></p> <%
 			}
 			%>
 			<form action="/fruitsStore/FixStock" method="post">

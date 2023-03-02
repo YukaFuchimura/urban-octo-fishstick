@@ -1,4 +1,5 @@
 //FUCHIMURAYUKA
+//管理者メッセージの確認
 //doPost empty
 
 package servlet;

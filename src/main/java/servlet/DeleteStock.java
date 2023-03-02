@@ -1,4 +1,5 @@
-//WAKABAYASHI
+//FUCHIMURAYUKA
+//選択した登録商品を削除
 
 package servlet;
 

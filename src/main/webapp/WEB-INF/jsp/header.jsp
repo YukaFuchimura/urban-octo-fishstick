@@ -59,12 +59,6 @@ Cart cart = (Cart) session.getAttribute("cart");
 
 		</div>
 
-
-
-
-
-
-
 		<div class="gnavi__wrap">
 			<ul class="gnavi__lists">
 				<li class="gnavi__list"><a href="/fruitsStore/">TOP</a></li>

@@ -8,6 +8,9 @@ Date date = new Date();
 SimpleDateFormat sdf = new SimpleDateFormat("yyyy年MM月dd日HH時mm分");
 String time = sdf.format(date);
 %>
+<%
+String error = (String) request.getAttribute("error");
+%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -21,36 +24,23 @@ String time = sdf.format(date);
 <body>
 	<jsp:include page="/WEB-INF/jsp/header.jsp" />
 
-	<!-- <form action="/Contact"  method="post">
-	name:<br>
-	<input type="text" name="name"><br>
-	gender:<br>
-	male<input type="radio" name="gender" value="0">
-	female<input type="radio" name="gender" value="1">
-	
-	<br><br>
-	choose:<br><br>
-	<select name="qtype">
-	<option hidden >select</option>
-	<option value="company">「about company」</option>
-	<option value="product">「about product」</option>
-	<option value="support">「about support」</option>
-	</select>
-	<br><br>「contents」<br>
-	<textarea name="body" cols="30" rows="10" ></textarea>
-	<br><input type="submit" value="regist">
-	</form> -->
-
 	<div class="contact">
 
 		<section class="section section-secondary">
 			<h3 class="section-headline">お問い合わせ</h3>
+			<%
+			if (error != null) {
+			%>
+			<p><%=error%></p>
+			<%
+			}
+			%>
 			<form class="form" action="Contact" method="post">
 				<table class="form-table">
 					<tr>
 						<th><label for="menu">お問い合わせ内容</label></th>
 						<td><select class="select" name="type" id="menu">
-								<option hidden>選択してください</option>
+								<option value="0" selected>選択してください</option>
 								<option value="1">いちごについて</option>
 								<option value="2">メロンについて</option>
 								<option value="3">葡萄について</option>
@@ -77,7 +67,7 @@ String time = sdf.format(date);
 					<tr>
 						<th>性別</th>
 						<td><label class="radio"> <input type="radio"
-								name="gender" value="1">男性
+								name="gender" value="1" required>男性
 						</label> <label class="radio"> <input type="radio" name="gender"
 								value="2">女性
 						</label></td>
@@ -100,9 +90,7 @@ String time = sdf.format(date);
 		<br>
 
 	</div>
-	<%-- <div class="bottom">
-<a href="/fruitsStore/">TOPへ戻る</a>
-</div>--%>
+
 	<jsp:include page="/WEB-INF/jsp/footer.jsp" />
 </body>
 </html>

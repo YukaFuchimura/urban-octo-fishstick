@@ -11,5 +11,5 @@ public class CartLogic {
 		cart.setTotal(cart.getTotal() + (fruits.getPrice() * fruits.getQuantity()));
 	}
 	//added by fuchimura 課題
-	// public void removeAll(Cart cart, Fruits fruits){}
+	// public void remove(Cart cart, Fruits fruits){}
 }

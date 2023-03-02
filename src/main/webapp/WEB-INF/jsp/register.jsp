@@ -31,7 +31,9 @@
 					<td><input type="password" id="pass" name="pass" class="input"
 						pattern="[0-9A-Za-z]{4,8}" placeholder="半角英数" required></td>
 				</tr>
-				<%-- <tr>
+				
+				<%--　うまく機能しなかったので見直し 
+				<tr>
 						<th>
 							<label for="pass">
 								パスワード再記入(確認用)
@@ -50,25 +52,6 @@
 		</form>
 	</section>
 
-
-
-
-
-	<!-- <h1>NEW ACCOUNT</h1>
-	
-	<form action ="RegisterAccount" method="post">
-	
-		<p>NAME:</p><br>
-		<input type="text" name="name" /><br>
-		<p>PASSWORD:</p><br>
-		<input type="password" name="pass"/><br><br>
-		<input type="submit" value="REGIST"><br>
-	
-	</form> -->
-	<%-- 
-	<div class="bottom">
-	<a href="/fruitsStore/">TOPへ戻る</a>
-	</div>--%>
 	<jsp:include page="/WEB-INF/jsp/footer.jsp" />
 </body>
 </html>

@@ -14,30 +14,6 @@
 </head>
 <body>
 	<jsp:include page="/WEB-INF/jsp/header.jsp" />
-	<!-- <header>
-		<div class="wrap">
-			<div class="top">
-			<img src="img/logo.gif" width="80" height="80" alt="logo"> 
-			<h2>FRUITS STORE</h2>
-			</div>
-			<div class="top-right">
-			<a href="UserLoginServlet" class="btn">Login</a>
-			<a href="RegisterAccount" class="btn">New account</a>
-			<a href="Contact" class="btn">お問い合わせ</a>
-			<a href="#" class="cart"><img src="img/cart.png" width="60" height="60" alt=""> </a>
-			<a href="#">Logout</a>
-			</div>
-			
-		</div>
-		<nav>
-			<ul class="wrapper">
-				<li><a href="#">MAIN</a></li>
-				<li><a href="#">COLUM</a></li>
-				<li><a href="#">CATEGORY</a></li>
-				<li><a href="#">ABOUT US</a></li>
-			</ul>
-		</nav>
-	</header> -->
 
 	<div class="new-article wrapper">
 		<article>
